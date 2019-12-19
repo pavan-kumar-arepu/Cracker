@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Happy-Di.png" translatesAutoresizingMaskIntoConstraints="NO" id="HC8-mc-BKn">
+                    <rect key="frame" x="0.0" y="121" width="480" height="191"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="191" id="fqL-6W-aMK"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fire Your Crackers here" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D1x-IT-UJm">
+                    <rect key="frame" x="230" y="327" width="242" height="21"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="242" id="EPx-qT-vYJ"/>
+                        <constraint firstAttribute="height" constant="21" id="Ssr-eG-dvA"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="HC8-mc-BKn" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-23.5" id="22Z-aX-Cs3"/>
+                <constraint firstAttribute="trailing" secondItem="HC8-mc-BKn" secondAttribute="trailing" id="89I-Li-R38"/>
+                <constraint firstItem="D1x-IT-UJm" firstAttribute="top" secondItem="HC8-mc-BKn" secondAttribute="bottom" constant="15" id="N19-Az-jFI"/>
+                <constraint firstItem="HC8-mc-BKn" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="oVz-wE-S8s"/>
+                <constraint firstItem="D1x-IT-UJm" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailingMargin" id="ojs-fx-d1X"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Happy-Di.png" width="515" height="138"/>
+    </resources>
+</document>
